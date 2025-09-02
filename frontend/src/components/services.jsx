@@ -7,6 +7,9 @@ const Services = () => {
             <h2>Our Services</h2>
             <ul>
                 <li>🏠 Residential Construction</li>
+                <li>🏢 Commercial Projects</li>
+                <li>🔨 Renovations</li>
+                <li>🌉 Civil Works</li>
                 
             </ul>
 
