@@ -21,5 +21,5 @@ const Home = () => {
         <Contact />
         <Footer />
         </>
-    )
-}
+    );
+};
