@@ -9,10 +9,10 @@ const Services = () => {
                 <li>🏠 Residential Construction</li>
                 <li>🏢 Commercial Projects</li>
                 <li>🔨 Renovations</li>
-                <li>🌉 Civil Works</li>
-                
+                <li>🌉 Civil Works</li>   
             </ul>
-
         </section>
-    )
-}
+    );
+};
+
+export default Services;
