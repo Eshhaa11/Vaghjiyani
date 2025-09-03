@@ -49,6 +49,8 @@ const ServicesPage = () => {
             <p></p>
           </div>
         </section>
+
+        <Footer />
       </main>
     </>
   );
