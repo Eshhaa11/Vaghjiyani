@@ -1,19 +1,19 @@
-import react from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import servicespage from "./pages/servicespage"
-import projectspage from "./pages/projectspage"
+import Home from "./pages/Home";
+import ServicesPage from "./pages/ServicesPage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<servicespage />} />
-        <Route path="/" element={<projectspage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;
