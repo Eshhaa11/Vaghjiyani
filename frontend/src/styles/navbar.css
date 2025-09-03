@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  margin-left: -3rem; /* You can make this value more negative, e.g., -5rem, for an even greater shift */
+  margin-left: -3rem; 
 }
 
 .logo-separator {
