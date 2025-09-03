@@ -38,6 +38,15 @@ const ServicesPage = () => {
                         and remodeling solutions.
                     </p>
                 </div>
+
+                
+                <div className="services-card">
+                    <h3>🌉 Infrastrucutre & Civil Works</h3>
+                    <p>
+                        We contribute to city development through bridges, roads, and other major infrastructure projects.
+                    </p>
+                    <p></p>
+                </div>
             </section>
         </main>
         </>
