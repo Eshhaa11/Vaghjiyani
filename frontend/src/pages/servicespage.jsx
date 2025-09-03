@@ -18,7 +18,19 @@ const ServicesPage = () => {
             <section className="services-grid">
                 <div className="service-card">
                     <h3>🏠 Resedential Construction</h3>
+                    <p>
+                        We build custom homes, apartments, and housing developments with 
+                        modern design and durable materials.
+                    </p>
                 </div>
+
+                <div className="services-card">
+                    <h3>🏢 Commercial Projects</h3>
+                    <p>Our team delivers reliable commerical spaces - from offices and retail shops to large-scale business complexes .
+                    </p>
+                </div>
+
+                <div className=""
             </section>
         </main>
         </>
