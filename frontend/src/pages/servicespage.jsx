@@ -17,7 +17,7 @@ const ServicesPage = () => {
 
             <section className="services-grid">
                 <div className="service-card">
-                    <h3></h3>
+                    <h3>🏠 Resedential Construction</h3>
                 </div>
             </section>
         </main>
