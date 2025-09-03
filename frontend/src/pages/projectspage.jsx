@@ -10,4 +10,4 @@ const ProjectsPage = () => {
   );
 };
 
-export default ProjectsPage;   // ✅ must have this line
+export default ProjectsPage;
