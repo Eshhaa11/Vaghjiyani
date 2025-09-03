@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectsPage from "./pages/ProjectsPage";
-
 function App() {
   return (
     <Router>
@@ -15,5 +14,7 @@ function App() {
     </Router>
   );
 }
-
 export default App;
+
+
+
