@@ -26,11 +26,18 @@ const ServicesPage = () => {
 
                 <div className="services-card">
                     <h3>🏢 Commercial Projects</h3>
-                    <p>Our team delivers reliable commerical spaces - from offices and retail shops to large-scale business complexes .
+                    <p>Our team delivers reliable commerical spaces - from offices and 
+                       retail shops to large-scale business complexes .
                     </p>
                 </div>
 
-                <div className=""
+                <div className="services-card">
+                    <h3>🔨 Renovations & Remodeling</h3>
+                    <p>
+                        Transform your existing spaces with our professional renovation
+                        and remodeling solutions.
+                    </p>
+                </div>
             </section>
         </main>
         </>
