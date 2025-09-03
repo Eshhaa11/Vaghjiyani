@@ -1,79 +1,77 @@
-/* Executive 2.1 Navbar */
+/* Executive 2.0 Navbar - Updated Alignment */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Playfair+Display:wght@700&display=swap');
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 3rem;
-  background: linear-gradient(135deg, #0a1a2f, #1c3a5a); /* Deep navy gradient */
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem 4rem;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
   z-index: 1000;
   font-family: 'Roboto', sans-serif;
-  transition: background 0.3s ease-in-out;
 }
 
-/* Logo styling */
+/* Adjust logo and alignment */
 .logo {
   display: flex;
   align-items: center;
-  margin-left: -1rem;
+  position: relative;
+  margin-left: -3rem; /* You can make this value more negative, e.g., -5rem, for an even greater shift */
 }
 
 .logo-separator {
+  position: relative;
   width: 2px;
-  height: 45px;
-  background-color: rgba(255, 255, 255, 0.3);
+  height: 50px;
+  background-color: #ddd;
   margin-left: 2rem;
-  margin-right: 2.5rem;
+  margin-right: 3rem;
 }
 
 .logo-link {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: white;
+  color: #333;
 }
 
 .logo-img {
-  width: 55px;
+  width: 70px;
   height: auto;
-  margin-right: 12px;
-  
+  margin-right: 15px;
 }
-
 
 .logo-text {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 1.8rem;
-  letter-spacing: -0.5px;
-  color: #f1f1f1;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  color: #2c3e50;
 }
 
-/* Nav links */
 .nav-links {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 3rem;
   margin: 0;
   padding: 0;
 }
 
+/* New links design */
 .nav-links li a {
-  color: #f1f1f1;
+  color: #555;
   text-decoration: none;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.05rem;
   position: relative;
-  padding-bottom: 6px;
   transition: color 0.3s ease;
+  padding-bottom: 5px;
 }
 
-/* Cool animated underline */
 .nav-links li a::after {
   content: '';
   position: absolute;
@@ -83,64 +81,54 @@
   left: 50%;
   transform: translateX(-50%);
   background-color: #f39c12;
-  transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .nav-links li a:hover {
-  color: #f39c12;
+  color: #000;
 }
 
 .nav-links li a:hover::after {
   width: 100%;
 }
 
-/* Button */
 .quote-btn {
   background-color: #f39c12;
   color: #fff;
   border: none;
-  padding: 0.7rem 1.8rem;
-  border-radius: 4px;
+  padding: 0.8rem 2rem;
+  border-radius: 3px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.5px;
-  box-shadow: 0 4px 10px rgba(243, 156, 18, 0.3);
-  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .quote-btn:hover {
   background-color: #e67e22;
-  transform: translateY(-2px) scale(1.03);
-  box-shadow: 0 6px 14px rgba(243, 156, 18, 0.45);
+  transform: translateY(-2px);
 }
 
-/* Hamburger */
+/* Hamburger for mobile */
 .hamburger {
   display: none;
   font-size: 2rem;
   cursor: pointer;
-  color: white;
-  transition: transform 0.3s ease;
 }
 
-.hamburger:hover {
-  transform: rotate(90deg);
-}
-
-/* Mobile */
+/* Mobile responsive styles */
 @media (max-width: 992px) {
   .logo-separator {
     display: none;
   }
-
   .nav-links {
     display: none;
   }
-
   .hamburger {
     display: block;
+    color: #333;
   }
-
   .nav-links.open {
     display: flex;
     flex-direction: column;
@@ -148,12 +136,8 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background: #0a1a2f;
+    background-color: #fff;
     padding: 1.5rem 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  }
-
-  .nav-links.open li {
-    margin: 0.8rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 }
