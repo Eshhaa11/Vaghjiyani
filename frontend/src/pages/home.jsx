@@ -7,6 +7,7 @@ import Projects from "../components/projects";
 import Testimonials from "../components/testimonials";
 import Contact from "../components/contacts";
 import Footer from "../components/footer";
+import "../styles/home.css";
 
 
 const Home = () => {
