@@ -48,5 +48,5 @@ const AboutUsPage = () => {
             </div>
         </section>
         </>
-    )
-}
+    );
+};
