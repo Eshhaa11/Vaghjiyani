@@ -8,7 +8,7 @@ html, body {
 
 .hero {
   position: relative;
-  width: 100vw; /* full viewport width */
+  width: 100vw; 
   height: 100vh; 
   background: url("../assets/bg-image.png") no-repeat center center/cover;
   display: flex;
