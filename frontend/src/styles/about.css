@@ -12,14 +12,17 @@
 }
 
 .about-content h2 {
-  font-size: 2.5rem;
-  color: #3C3B6E;
+  font-size: 34px;
+  color: #f39c12;
   margin-bottom: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .about-content p {
-  font-size: 1.1rem;
-  color: #555;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #3C3B6E;
+  font-weight: bold;
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
@@ -31,7 +34,10 @@
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .read-more:hover {
   border-bottom: 2px solid #f39c12;
