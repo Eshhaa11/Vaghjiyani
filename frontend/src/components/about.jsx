@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css"
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
                 excellence in construction, engineering, and infrastrucutre development.
                 We pride ourselves on quality, safety, and innovation.
             </p>
- 
+            <Link to="/about" className="read-more">Read More</Link>
         </section>
     );
 };
