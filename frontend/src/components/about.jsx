@@ -6,10 +6,11 @@ const About = () => {
         <section className="about" id="about">
             <h2>About Us</h2>
             <p>
-                With decades of experience in the construction industry, we deliver
-                projects that stand the test of time. Our commitment to quality. 
-                safety, and innovation sets us apart.
+                With decades of experience, Vaghjiyani Enterprises Ltd delivers
+                excellence in construction, engineering, and infrastrucutre development.
+                We pride ourselves on quality, safety, and innovation.
             </p>
+ 
         </section>
     );
 };
