@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectsPage from "./pages/ProjectsPage";
+import AboutUsPage from "./pages/AboutUsPage"; // Import About Us
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/about-us" element={<AboutUsPage />} /> {/* About Us route */}
       </Routes>
     </Router>
   );
