@@ -31,7 +31,9 @@ const services = () => {
       </p>
       </div>
 
-      
+      <div className="services-grid">
+        
+      </div>
     </section>
   )
 }
