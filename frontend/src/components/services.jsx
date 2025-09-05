@@ -16,6 +16,7 @@ const services = () => {
       icon: "⚙️"
     },
     {
+      title: "Infrastructure",
       
     },
   ]
