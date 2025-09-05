@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from "aos";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
