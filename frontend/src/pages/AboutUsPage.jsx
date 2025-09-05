@@ -39,7 +39,7 @@ const AboutUsPage = () => {
         </div>
       </section>
 
-      {/* Team Section */}
+      
       <section className="team-section">
         <div className="text-center mb-12">
           <h2 data-aos="fade-up">Meet Our Team</h2>
