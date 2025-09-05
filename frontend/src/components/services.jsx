@@ -17,7 +17,7 @@ const services = () => {
     },
     {
       title: "Infrastructure",
-      desc: ""
+      desc: "Building roads, bridges, and facilities that shape the future."
     },
   ]
 }
