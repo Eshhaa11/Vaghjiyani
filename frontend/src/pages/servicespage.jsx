@@ -39,7 +39,15 @@ const ServicesPage = () => {
   ];
 
   return (
+    <>
+    <Navbar />
+
+    <section className="services-page-hero">
+      
+    </section>
+
     
+    </>
   )
 };
 
