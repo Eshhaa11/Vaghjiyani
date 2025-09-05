@@ -17,7 +17,7 @@ const services = () => {
     },
     {
       title: "Infrastructure",
-      
+      desc: ""
     },
   ]
 }
