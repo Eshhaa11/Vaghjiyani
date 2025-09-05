@@ -30,6 +30,10 @@ const ServicesPage = () => {
       title: "Renovation & Remodelling",
       desc: "Breathing new life into exisiting spaces with modern upgrades.",
       icon: "🔨"
+    },
+    {
+      title: "Project Management",
+      
     }
   ]
 };
