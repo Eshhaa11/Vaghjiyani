@@ -12,8 +12,11 @@ const services = () => {
     },
     {
       title: "Engineering",
-      desc: "Innovative engineering services tailored to complex challenges."
-
-    }
+      desc: "Innovative engineering services tailored to complex challenges.",
+      icon: "⚙️"
+    },
+    {
+      
+    },
   ]
 }
