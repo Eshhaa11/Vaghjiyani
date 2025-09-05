@@ -72,3 +72,8 @@
   background: #1e40af;
   transform: translateY(-2px);
 }
+
+.about-image img {
+  width: 100%;
+  
+}
