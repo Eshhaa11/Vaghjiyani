@@ -52,5 +52,6 @@
 
 .highlight .icon {
   color: #2563;
-  
+  width: 28px;
+  height: 28px;
 }
