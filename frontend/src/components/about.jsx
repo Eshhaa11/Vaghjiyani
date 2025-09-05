@@ -10,13 +10,18 @@ const About = () => {
       <div className="about-content" data-aos="fade-right">
         <h2>About Us</h2>
         <h3 className="tagline" data-aos="fade-up" data-aos-delay="100">
-          Developing Future, Building Excellence
+          Developing Future, Building Excellence.
         </h3>
         <p data-aos="fade-up" data-aos-delay="200">
           With decades of experience, Vaghjiyani Enterprises Ltd delivers
           excellence in construction, engineering, and infrastructure development. 
           We pride ourselves on quality, safety, and innovation.
         </p>
+
+
+        <div className="highlights">
+          
+        </div>
         <Link to="/about-us" className="read-more" data-aos="zoom-in" data-aos-delay="400">
         Read More →
         </Link>
