@@ -12,7 +12,7 @@ const services = () => {
     },
     {
       title: "Engineering",
-      
+      desc: "Innovative engineering services"
 
     }
   ]
