@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/about.css";
 import aboutImg from "../assets/about.png"; 
+import AboutUs from "../pages/AboutUsPage";
 
 const About = () => {
   return (
@@ -13,9 +14,10 @@ const About = () => {
           excellence in construction, engineering, and infrastructure development. 
           We pride ourselves on quality, safety, and innovation.
         </p>
-        <Link to="/about" className="read-more" data-aos="zoom-in" data-aos-delay="400">
-          Read More →
+        <Link to="/about-us" className="read-more" data-aos="zoom-in" data-aos-delay="400">
+        Read More →
         </Link>
+
       </div>
 
       <div className="about-image" data-aos="fade-left">
