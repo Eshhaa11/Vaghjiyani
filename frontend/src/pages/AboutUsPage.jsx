@@ -15,7 +15,7 @@ const AboutUsPage = () => {
     <>
       <Navbar />
 
-      {/* Hero Section */}
+      
       <section className="about-hero">
         <h1 data-aos="fade-down">About Our Company</h1>
         <p data-aos="fade-up" data-aos-delay="200">
@@ -23,7 +23,7 @@ const AboutUsPage = () => {
         </p>
       </section>
 
-      {/* Mission & Vision Section */}
+      
       <section className="mission-vision">
         <div data-aos="fade-right">
           <h2>Our Mission</h2>
