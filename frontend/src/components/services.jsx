@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/services.css";
+import { title } from "framer-motion/client";
 
 const services = () => {
   const services = [
@@ -10,7 +11,7 @@ const services = () => {
       icon: "🏗️"
     },
     {
-      
+      title: 
     }
   ]
 }
