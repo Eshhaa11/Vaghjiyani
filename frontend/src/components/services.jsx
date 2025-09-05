@@ -6,7 +6,8 @@ const services = () => {
   const services = [
     {
       title: "Construction",
-      desc: "Delivering high-quality building solutions with precision and safety"
+      desc: "Delivering high-quality building solutions with precision and safety",
+      icon: "🏗️"
     }
   ]
 }
