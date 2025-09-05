@@ -69,5 +69,6 @@
 }
 
 .read-more-btn:hover {
-  background: ;
+  background: #1e40af;
+  transform: translateY(-2px);
 }
