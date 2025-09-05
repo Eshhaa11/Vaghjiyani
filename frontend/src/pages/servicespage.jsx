@@ -12,7 +12,8 @@ const ServicesPage = () => {
 
   const allServices = [
     {
-      title:
+      title: "Resedential Construction",
+      desc: "Custom homes and apartments with cutting-edge design and durability. "
     }
   ]
 };
