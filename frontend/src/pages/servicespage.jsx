@@ -33,7 +33,8 @@ const ServicesPage = () => {
     },
     {
       title: "Project Management",
-      
+      desc: "End-to-end management ensuring timely and cost-effective delivery.",
+      icon: "📊",
     }
   ]
 };
