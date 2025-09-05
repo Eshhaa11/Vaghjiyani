@@ -6,7 +6,7 @@ const services = () => {
   const services = [
     {
       title: "Construction"
-      
+      desc: "Delivering high quality"
     }
   ]
 }
