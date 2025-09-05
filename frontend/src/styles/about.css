@@ -10,22 +10,24 @@
 .about-content h2{
   font-size: 40px;
   font-weight: bold;
-  color: #111827;
+  color: #3C3B6E;
   margin-bottom: 12px;
 }
 
 .about-content .tagline {
   font-size: 20px;
-  font-weight: 500;
-  color: #2563eb;
-  margin-bottom: 16px;
+  font-weight: 900;
+  color: #3C3B6E;
+  margin-bottom: 40px;
 }
 
 .about-content p {
   font-size: 16px;
   line-height: 28px;
-  color: #374151;
+  color: #242b35;
   margin-bottom: 32px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .highlights {
@@ -38,22 +40,30 @@
 .highlight {
   flex:  1 1 120px;
   background: white;
-  padding: 16px;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 20px 10px rgba(0,0,0,0.05);
   display: flex;
   align-items: center;
 }
 
+.highlight p {
+  font-size: 16px;
+  color: #3B3C6E;
+}
+
 .highlight:hover{
   transform: translateY(-5PX);
-  box-shadow: 0 6px 18px rgba(0,0,0,1);
+  box-shadow: 0 6px 18px rgb(17, 21, 29);
 }
 
 .highlight .icon {
-  color: #2563;
-  width: 28px;
-  height: 28px;
+  color: rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -18px;
+  top: -12px;
 }
 
 .read-more-btn {
