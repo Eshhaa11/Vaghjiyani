@@ -47,7 +47,11 @@ const services = () => {
         ))}
       </div>
 
-      <div 
+      <div className="text-center">
+        <Link to="/services" className="services-btn" data-aos="zoom-in">
+        View All Services 
+        </Link>
+      </div>
     </section>
   )
 }
