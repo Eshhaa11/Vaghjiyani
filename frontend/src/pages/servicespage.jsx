@@ -15,6 +15,9 @@ const ServicesPage = () => {
       title: "Resedential Construction",
       desc: "Custom homes and apartments with cutting-edge design and durability.",
       icon: "🏠"
+    },
+    {
+      title:
     }
   ]
 };
