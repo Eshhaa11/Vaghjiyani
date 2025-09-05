@@ -17,7 +17,8 @@ const ServicesPage = () => {
       icon: "🏠"
     },
     {
-      title:
+      title: "Commercial Projects",
+
     }
   ]
 };
