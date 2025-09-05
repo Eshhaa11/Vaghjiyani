@@ -25,8 +25,13 @@ const services = () => {
   return (
     <section className="services">
       <div className="services-header" data-aos="fade-up">
-        
+      <h2>Our Services</h2>
+      <p>
+        We provide top-notch services across construction, engineering, and infrastructure.
+      </p>
       </div>
+
+      
     </section>
   )
 }
