@@ -88,5 +88,6 @@
   .about {
     grid-template-columns: 1fr;
     text-align: center;
+    padding: 60px 20px;
   }
 }
