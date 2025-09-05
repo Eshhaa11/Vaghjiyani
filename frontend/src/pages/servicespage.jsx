@@ -18,6 +18,8 @@ const ServicesPage = () => {
     },
     {
       title: "Commercial Projects",
+      desc: "Offices, malls, and complexes built to modern business standards.",
+      
 
     }
   ]
