@@ -11,7 +11,9 @@ const ServicesPage = () => {
   }, []);
 
   const allServices = [
-    
+    {
+      title:
+    }
   ]
 };
 
