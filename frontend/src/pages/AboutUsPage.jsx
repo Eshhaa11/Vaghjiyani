@@ -64,7 +64,7 @@ const AboutUsPage = () => {
         </div>
       </section>
 
-      {/* Back to Home */}
+      
       <div className="text-center py-12">
         <Link to="/" className="back-home" data-aos="fade-up">
           Back to Home
