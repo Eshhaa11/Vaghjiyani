@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/services.css";
 import { title } from "framer-motion/client";
 
-const services = () => {
+const Services = () => {
   const services = [
     {
       title: "Construction",
@@ -49,9 +49,11 @@ const services = () => {
 
       <div className="text-center">
         <Link to="/services" className="services-btn" data-aos="zoom-in">
-        View All Services 
+        View All Services →
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};
+
+export default Services;
