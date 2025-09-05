@@ -1,4 +1,12 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 8%;
+  background: #f9fafb;
+}
+
+.about-content h2{
+  
 }
