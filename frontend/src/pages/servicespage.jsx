@@ -48,6 +48,10 @@ const ServicesPage = () => {
     <Navbar />
 
     <section className="services-hero">
+      <h1 data-aos="fade-down">Our Services</h1>
+      <p data-aos="fade-up" data-aos-delay="200">
+        Delivering excellence across construction, engineering, and infrastructure.
+      </p>
       
 
     </section>
