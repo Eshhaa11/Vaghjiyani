@@ -28,6 +28,11 @@ const ServicesPage = () => {
     },
     {
       title: "Industrail Engineering",
+      desc: "Factories,warehouses, and plants with advanced standards.",
+      img: "/assets/services/industrial.jpg",
+    },
+    {
+      title: "Renovation & Remodeling",
       
     }
   ]
