@@ -5,6 +5,8 @@ import "../styles/services.css";
 
 const Services = () => {
   const services = [
-    
+    {
+      title: "Construction"
+    }
   ]
 }
