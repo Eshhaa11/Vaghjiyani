@@ -44,5 +44,12 @@ const ServicesPage = () => {
   ];
 
   return (
+    <>
+    <Navbar />
+
+    <section>
+      
+    </section>
+    </>
   )
 }
