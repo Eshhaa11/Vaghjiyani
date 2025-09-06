@@ -49,7 +49,9 @@ const ProjectsPage = () => {
       {projects.map((project, index) => (
         <div
         className="projet-card"
-        
+        key={index}
+        data-aos="zoom-in-up"
+        data-aos-delay={index * 150}
       ))}
     </section>
     </>
