@@ -6,7 +6,9 @@ import "../styles/services.css";
 const Services = () => {
   const services = [
     {
-      title: "Construction"
+      title: "Construction",
+      desc:"High-quality resedential and commercial building solutions.",
+      img: "/assets/services/construction.jpg", 
     }
   ]
 }
