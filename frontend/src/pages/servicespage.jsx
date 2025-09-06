@@ -22,7 +22,7 @@ const ServicesPage = () => {
       img: "/assets/services/commercial.jpg"
     },
     {
-      title: "Infrastrucutre development",
+      title: "Infrastrucutre Development",
       desc: "Roads, bridges, and highwaysconnecting communities.",
       img: "/assets/services/infrastructure.jpg",
     },
@@ -33,7 +33,17 @@ const ServicesPage = () => {
     },
     {
       title: "Renovation & Remodeling",
-      
-    }
-  ]
+      desc: "Üpgrading and modernizing spacesfor maximum value.",
+      img: "/assets/services/renovation.jpg",
+    }, 
+    {
+      title: "Project Management",
+      desc: "From planning to delivery, ensuring efficiency and quality.",
+      img: "/assets/services/management.jpg"
+    },
+  ];
+
+  return (
+    
+  )
 }
