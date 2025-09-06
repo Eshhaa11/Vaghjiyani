@@ -23,6 +23,8 @@ const ServicesPage = () => {
     },
     {
       title: "Infrastrucutre development",
+      desc: "Roads, bridges, and highwaysconnecting communities.",
+      img: "/assets/services/infrastructure.jpg",
     }
   ]
 }
