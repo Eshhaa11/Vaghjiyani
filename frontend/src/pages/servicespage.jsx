@@ -47,8 +47,8 @@ const ServicesPage = () => {
     <>
     <Navbar />
 
-    <section>
-      
+    <section className="services-h">
+
     </section>
     </>
   )
