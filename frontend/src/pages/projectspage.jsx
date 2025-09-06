@@ -34,5 +34,11 @@ const ProjectsPage = () => {
     },
   ];
 
-  
+  return (
+    <>
+    <Navbar />
+
+    <section className="projects-hero"
+    </>
+  )
 }
