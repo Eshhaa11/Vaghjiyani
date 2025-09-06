@@ -22,7 +22,7 @@ const ServicesPage = () => {
       img: "/assets/services/commercial.jpg"
     },
     {
-      
+      title: "Infrastrucutre development",
     }
   ]
 }
