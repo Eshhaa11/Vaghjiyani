@@ -47,7 +47,8 @@ const ServicesPage = () => {
     <>
     <Navbar />
 
-    <section className="services-h">
+    <section className="services-hero">
+      
 
     </section>
     </>
