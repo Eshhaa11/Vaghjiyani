@@ -31,6 +31,8 @@ const ProjectsPage = () => {
       title: "Industrial Hub",
       desc: "Factories and warehouses with advanced engineering.",
       img: "/assets/projects/industrials.jpg",
-    }
-  ]
+    },
+  ];
+
+  
 }
