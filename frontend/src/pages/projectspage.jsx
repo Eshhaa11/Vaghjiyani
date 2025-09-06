@@ -6,4 +6,8 @@ import Footer from "../components/footer";
 import "../styles/projects.css";
 
 
-const ProjectsPage
+const ProjectsPage = () => {
+  useEffect(() => {
+    AOS.init({})
+  })
+}
