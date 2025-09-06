@@ -56,10 +56,13 @@ const ProjectsPage = () => {
         <img src={project.img} alt={project.title} className="project-img" />
         <div className="project-overlay">
           <h3>{project.title}</h3>
+          <p>{project.desc}</p>
         </div>
       </div>
       ))}
     </section>
+
+    <Footer />
     </>
   )
 }
