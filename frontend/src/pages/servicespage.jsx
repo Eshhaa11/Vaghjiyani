@@ -54,8 +54,8 @@ const ServicesPage = () => {
       </p>
     </section>
 
-    <section>
-      
+    <section className="services-grid">
+
     </section>
     </>
   )
