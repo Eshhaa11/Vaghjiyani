@@ -15,7 +15,8 @@ const ProjectsPage = () => {
     {
       title: "Luxury Apartments",
       desc: "High-end residential development with modern design.",
-      
+      img: "assets/projects/apartments.jpg"
+
     }
   ]
 }
