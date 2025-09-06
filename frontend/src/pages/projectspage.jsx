@@ -52,6 +52,9 @@ const ProjectsPage = () => {
         key={index}
         data-aos="zoom-in-up"
         data-aos-delay={index * 150}
+      >
+        <img
+      </div>
       ))}
     </section>
     </>
