@@ -25,7 +25,7 @@ const ProjectsPage = () => {
     {
       title: "Bridge Construction",
       desc: "Major infrastructure project connecting communities.",
-      img: ""
-    }
+      img: "/assets/projects/bridge.jpg",
+    },
   ]
 }
