@@ -18,7 +18,8 @@ const ServicesPage = () => {
     },
     {
       title: "Commercial Projects",
-      desc:
+      desc: "High-rise offices, malls and business complexes built to last.",
+      img: "/"
     }
   ]
 }
