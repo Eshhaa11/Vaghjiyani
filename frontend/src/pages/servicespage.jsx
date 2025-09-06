@@ -15,6 +15,10 @@ const ServicesPage = () => {
       title: "Resedntial Construction",
       desc: "Modern homes and apartments designed with precision and quality.",
       img: "/assets/services/resendtial.jpg"
+    },
+    {
+      title: "Commercial Projects",
+      desc:
     }
   ]
 }
