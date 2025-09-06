@@ -13,7 +13,9 @@ const ProjectsPage = () => {
 
   const projects = [
     {
-      title:
+      title: "Luxury Apartments",
+      desc: "High-end residential development with modern design.",
+      
     }
   ]
 }
