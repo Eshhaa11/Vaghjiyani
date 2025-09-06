@@ -8,6 +8,6 @@ import "../styles/projects.css";
 
 const ProjectsPage = () => {
   useEffect(() => {
-    AOS.init({})
-  })
+    AOS.init({duration: 1000, once: true});
+  }, []);
 }
