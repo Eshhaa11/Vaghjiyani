@@ -27,5 +27,10 @@ const ProjectsPage = () => {
       desc: "Major infrastructure project connecting communities.",
       img: "/assets/projects/bridge.jpg",
     },
+    {
+      title: "Industrial Hub",
+      desc: "Factories and warehouses with advanced engineering.",
+      img: "/assets/projects/industrials.jpg",
+    }
   ]
 }
