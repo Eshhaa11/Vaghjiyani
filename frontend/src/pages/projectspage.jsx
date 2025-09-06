@@ -40,7 +40,17 @@ const ProjectsPage = () => {
 
     <section className="projects-hero">
       <h1 data-aos="fade-down">Our Projects</h1>
-      
+      <p data-aos="fade-up" data-aos-delay="200">
+        From resedential to industrial, we deliver landmark projects that define excellence.
+      </p>
+    </section>
+
+    <section className="projects-grid">
+      {projects.map((project, index) => (
+        <div
+        className="projet-card"
+        
+      ))}
     </section>
     </>
   )
