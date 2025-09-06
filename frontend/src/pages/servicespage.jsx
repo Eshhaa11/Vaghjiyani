@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import "../styles/services.css";
+import { img } from "framer-motion/client";
 
 const ServicesPage = () => {
   useEffect(() => {
@@ -62,13 +63,16 @@ const ServicesPage = () => {
         data-aos="fade-up"
         data-aos-delay={index *150}
         >
-
-          
-
-        </div>
+       <img src={services.img} alt={"service.title"} className="services-img" />
+       <div className="service-content">
+        <h3>{service.title}</h3>
+        <p>{service.desc}</p>
+       </div>
+      </div>
       ))}
-
     </section>
+
+    <Footer />
     </>
   )
 }
