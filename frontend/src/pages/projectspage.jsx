@@ -53,7 +53,7 @@ const ProjectsPage = () => {
         data-aos="zoom-in-up"
         data-aos-delay={index * 150}
       >
-        <img
+        <img src={project.img} alt={project.title} className="project-img" />
       </div>
       ))}
     </section>
