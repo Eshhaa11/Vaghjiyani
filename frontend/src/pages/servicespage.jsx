@@ -13,6 +13,8 @@ const ServicesPage = () => {
   const allServices = [
     {
       title: "Resedntial Construction",
+      desc: "Modern homes and apartments designed with precision and quality.",
+      img: "/assets/services/resendtial.jpg"
     }
   ]
 }
