@@ -64,5 +64,7 @@ const ProjectsPage = () => {
 
     <Footer />
     </>
-  )
-}
+  );
+};
+
+export default ProjectsPage;
