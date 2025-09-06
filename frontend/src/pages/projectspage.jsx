@@ -54,6 +54,9 @@ const ProjectsPage = () => {
         data-aos-delay={index * 150}
       >
         <img src={project.img} alt={project.title} className="project-img" />
+        <div className="project-overlay">
+          <h3>{project.title}</h3>
+        </div>
       </div>
       ))}
     </section>
