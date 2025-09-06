@@ -33,7 +33,11 @@ const Services = () => {
       </div>
 
     <div className="services-grid">
-      
+      {services.map((services, index) => (
+        <div 
+        className="service-card"
+        key={index}
+      ))}
     </div>
     </section>
   )
