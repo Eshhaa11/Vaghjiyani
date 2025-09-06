@@ -38,7 +38,10 @@ const ProjectsPage = () => {
     <>
     <Navbar />
 
-    <section className="projects-hero"
+    <section className="projects-hero">
+      <h1 data-aos="fade-down">Our Projects</h1>
+      
+    </section>
     </>
   )
 }
