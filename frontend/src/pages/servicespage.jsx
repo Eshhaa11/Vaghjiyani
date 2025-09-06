@@ -55,6 +55,13 @@ const ServicesPage = () => {
     </section>
 
     <section className="services-grid">
+      {allServices.map((service, index) => (
+        <div
+        className=""
+        >
+
+        </div>
+      ))}
 
     </section>
     </>
