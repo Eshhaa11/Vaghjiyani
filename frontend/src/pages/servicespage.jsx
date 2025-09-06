@@ -57,8 +57,13 @@ const ServicesPage = () => {
     <section className="services-grid">
       {allServices.map((service, index) => (
         <div
-        className=""
+        className="service-card"
+        key={index}
+        data-aos="fade-up"
+        data-aos-delay={index *150}
         >
+
+          
 
         </div>
       ))}
