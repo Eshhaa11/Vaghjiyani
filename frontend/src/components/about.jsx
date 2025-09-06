@@ -34,7 +34,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Call to Action */}
+        
         <Link
           to="/about-us"
           className="read-more-btn"
