@@ -19,7 +19,8 @@ const ProjectsPage = () => {
     },
     {
       title: "Corporate Towers",
-      
-    }
+      desc: "State-of-the-art office complexes in prime locations.",
+      img: "/assets/projects/towers.jpg",
+    },
   ]
 }
