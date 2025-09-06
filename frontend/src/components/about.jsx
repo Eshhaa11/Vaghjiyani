@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Award, Shield, Users } from "lucide-react"; // icons
+import { Award, Shield, Users } from "lucide-react"; 
 import "../styles/about.css";
 import aboutImg from "../assets/about.png";
 
