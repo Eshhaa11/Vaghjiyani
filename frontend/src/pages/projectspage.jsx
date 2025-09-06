@@ -22,5 +22,10 @@ const ProjectsPage = () => {
       desc: "State-of-the-art office complexes in prime locations.",
       img: "/assets/projects/towers.jpg",
     },
+    {
+      title: "Bridge Construction",
+      desc: "Major infrastructure project connecting communities.",
+      img: ""
+    }
   ]
 }
