@@ -44,6 +44,5 @@ const ServicesPage = () => {
   ];
 
   return (
-    
   )
 }
