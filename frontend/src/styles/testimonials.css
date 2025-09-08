@@ -91,3 +91,7 @@
 .swiper-button-prev {
     top: 50%;
 }
+
+.swiper-button-next {
+    right: 20px;
+}
