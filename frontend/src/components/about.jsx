@@ -18,7 +18,7 @@ const About = () => {
           development. We pride ourselves on quality, safety, and innovation.
         </p>
 
-        {/* Key Highlights */}
+        
         <div className="highlights">
           <div className="highlight" data-aos="zoom-in" data-aos-delay="300">
             <Award className="icon" />
