@@ -20,6 +20,12 @@ const testimonials = [
     },
     {
         name: "Sophia Patel",
+        role: "Architect, Skyline Designs",
+        feedback: 
+        "Collaborating with the was smooth and efficient. Their expertise bought our vision to life flawlessly.",
+    },
+];
+ 
+    const Testimonials = () => {
         
     }
-]
