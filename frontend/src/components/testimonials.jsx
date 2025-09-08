@@ -53,11 +53,9 @@ const testimonials = [
                     </div>
                    </SwiperSlide> 
                 ))}
-
-
-
-        
             </Swiper>
            </section> 
-        )
-    }
+        );
+    };
+
+    export default Testimonials;
