@@ -6,6 +6,7 @@ const ContactSection = () => {
     return (
         <section className="contact-section">
            <div className="contact-container" data-aos="fade-up">
+            <h2>Contact Us</h2>
            </div> 
         </section>
     )
