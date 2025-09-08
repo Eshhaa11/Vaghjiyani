@@ -29,3 +29,5 @@ const ContactPage  = () => {
         </section>
     );
 };
+
+export default ContactPage;
