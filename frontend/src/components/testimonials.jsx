@@ -39,7 +39,7 @@ const testimonials = [
             <Swiper
             modules={[Pagination, Autoplay]}
             slidesPerView={1}
-            
+            spaceBetween={30}
             ></Swiper>
            </section> 
         )
