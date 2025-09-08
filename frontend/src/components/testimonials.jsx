@@ -42,6 +42,7 @@ const testimonials = [
             spaceBetween={30}
             pagination={{clickable: true}}
             autoplay={{delay: 5000, disableOnInteraction: false}}
+            loop={true}
             ></Swiper>
            </section> 
         )
