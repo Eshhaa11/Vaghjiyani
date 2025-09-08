@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import "../styles/aboutus.css"; // Import the CSS
+import "../styles/aboutus.css"; 
 
 const AboutUsPage = () => {
   useEffect(() => {
