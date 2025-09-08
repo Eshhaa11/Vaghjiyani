@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/services.css";
 
-// ✅ Correct imports (since images are directly under src/assets/)
 import constructionImg from "../assets/construction.jpg";
 import engineeringImg from "../assets/engineering.jpeg";
 import infrastructureImg from "../assets/infrastructure.jpg";
@@ -11,28 +10,28 @@ const Services = () => {
   const services = [
     {
       title: "Construction",
-      desc: "High-quality residential and commercial building solutions.",
+      desc: "From groundbreaking to handover, we deliver durable residential and commercial spaces with precision.",
       img: constructionImg,
     },
     {
       title: "Engineering",
-      desc: "Innovative engineering tailored to complex challenges.",
+      desc: "Innovative engineering solutions that address complex challenges with efficiency and expertise.",
       img: engineeringImg,
     },
     {
       title: "Infrastructure",
-      desc: "Roads, bridges, and urban infrastructure for tomorrow.",
+      desc: "Roads, bridges, and large-scale infrastructure built to serve communities for generations.",
       img: infrastructureImg,
     },
   ];
 
   return (
-    <section className="services home-services">
+    <section className="services">
       <div className="services-header" data-aos="fade-up">
         <h2>Our Services</h2>
         <p>
-          We provide a complete range of construction and engineering solutions
-          designed to deliver excellence.
+          At Vaghjiyani Enterprises Ltd, we blend innovation with craftsmanship
+          to deliver projects that define excellence.
         </p>
       </div>
 
@@ -44,7 +43,9 @@ const Services = () => {
             data-aos="fade-up"
             data-aos-delay={index * 150}
           >
-            <img src={service.img} alt={service.title} className="service-img" />
+            <div className="service-img-wrapper">
+              <img src={service.img} alt={service.title} className="service-img" />
+            </div>
             <div className="service-content">
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
@@ -55,7 +56,7 @@ const Services = () => {
 
       <div className="text-center">
         <Link to="/services" className="services-btn" data-aos="zoom-in">
-          View All Services →
+          Explore All Services →
         </Link>
       </div>
     </section>
