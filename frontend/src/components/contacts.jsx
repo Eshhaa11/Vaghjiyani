@@ -7,6 +7,9 @@ const ContactSection = () => {
         <section className="contact-section">
            <div className="contact-container" data-aos="fade-up">
             <h2>Contact Us</h2>
+            <p>
+                Have a project in mind? Let's connect and bring your vision to life.
+            </p>
            </div> 
         </section>
     )
