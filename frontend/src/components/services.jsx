@@ -2,22 +2,27 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/services.css";
 
+// ✅ Correct imports (since images are directly under src/assets/)
+import constructionImg from "../assets/construction.jpg";
+import engineeringImg from "../assets/engineering.jpeg";
+import infrastructureImg from "../assets/infrastructure.jpg";
+
 const Services = () => {
   const services = [
     {
       title: "Construction",
       desc: "High-quality residential and commercial building solutions.",
-      img: "/assets/services/construction.jpg",
+      img: constructionImg,
     },
     {
       title: "Engineering",
       desc: "Innovative engineering tailored to complex challenges.",
-      img: "/assets/services/engineering.jpg",
+      img: engineeringImg,
     },
     {
       title: "Infrastructure",
       desc: "Roads, bridges, and urban infrastructure for tomorrow.",
-      img: "/assets/services/infrastructure.jpg",
+      img: infrastructureImg,
     },
   ];
 
