@@ -126,7 +126,7 @@
   color: #555;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .services, .services-page-grid {
     padding: 60px 20px;
