@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/projects.css";
-import greenmallImg from "../assets/greenmall.jpg";
-import metroImg from "../assets/metro.jpg";
-import skylineImg from "../assets/skyline.jpg"
 
+// Import your project preview images
+import skylineImg from "../assets/skyline.jpg";
+import metroImg from "../assets/metro.jpg";
+import greenmallImg from "../assets/greenmall.jpg";
 
 const Projects = () => {
   const projects = [
@@ -29,7 +30,10 @@ const Projects = () => {
     <section className="projects">
       <div className="projects-header" data-aos="fade-up">
         <h2>Our Projects</h2>
-        <p>Delivering world-class projects that stand the test of time.</p>
+        <p>
+          Delivering world-class projects that stand the test of time, shaping
+          the world's future with innovation and quality.
+        </p>
       </div>
 
       <div className="projects-grid">
