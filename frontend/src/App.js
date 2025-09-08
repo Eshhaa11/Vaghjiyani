@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectsPage from "./pages/ProjectsPage";
-import AboutUsPage from "./pages/AboutUsPage"; // Import About Us
+import AboutUsPage from "./pages/AboutUsPage"; 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
