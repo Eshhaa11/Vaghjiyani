@@ -10,6 +10,8 @@ const ContactSection = () => {
             <p>
                 Have a project in mind? Let's connect and bring your vision to life.
             </p>
+            <Link to="/contact" className="contact-btn">
+            </Link>
            </div> 
         </section>
     )
