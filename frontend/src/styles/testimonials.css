@@ -64,7 +64,7 @@
 }
 
 .swiper-pagination-bullet {
-  background: #007bff !important;
+  background: #3B3C6E !important;
   width: 12px;
   height: 12px;
   opacity: 0.8;
@@ -79,6 +79,7 @@
 .swiper-button-prev {
     color: #3B3C6E;
     transition: color 0.3 ease, transform 0.3s ease;
+    width: 410px;
 }
 
 .swiper-button-next:hover,
