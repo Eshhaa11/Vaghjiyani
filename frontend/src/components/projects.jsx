@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/projects.css";
 import greenmallImg from "../assets/greenmall.jpg";
 import metroImg from "../assets/metro.jpg";
+import skylineImg from "../assets/skyline.jpg"
 
 
 const Projects = () => {
@@ -10,17 +11,17 @@ const Projects = () => {
     {
       title: "Skyline Towers",
       desc: "A modern residential complex with sustainable design.",
-      img: "https://via.placeholder.com/400x250?text=Skyline+Towers",
+      img: skylineImg,
     },
     {
       title: "Metro Bridge",
       desc: "A landmark bridge project enhancing urban connectivity.",
-      img: "https://via.placeholder.com/400x250?text=Metro+Bridge",
+      img: metroImg,
     },
     {
       title: "Green Mall",
       desc: "Eco-friendly commercial mall with innovative architecture.",
-      img: "https://via.placeholder.com/400x250?text=Green+Mall",
+      img: greenmallImg,
     },
   ];
 
