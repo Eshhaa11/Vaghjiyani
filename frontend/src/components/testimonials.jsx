@@ -13,6 +13,6 @@ const testimonials = [
         "Vaghjiyani Enterprises delivered exceptional quality and professionalism throughout our project. Highly recommended!"
     },
     {
-        
+        name: "Michael Lee",
     }
 ]
