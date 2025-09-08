@@ -84,4 +84,5 @@
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
     color: #3B3C6E;
+    transform: scale(1.1);
 }
