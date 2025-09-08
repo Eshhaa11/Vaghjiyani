@@ -74,3 +74,8 @@
   background: #0056b3 !important;
   transform: scale(1.2);
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #3B3C6B;
+}
