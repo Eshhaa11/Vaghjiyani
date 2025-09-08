@@ -77,7 +77,11 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #3B3C6B;
+    color: #3B3C6E;
     transition: color 0.3 ease, transform 0.3s ease;
+}
 
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #3B3C6E;
 }
