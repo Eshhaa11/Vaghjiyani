@@ -47,9 +47,7 @@ const testimonials = [
                 {testimonials.map((t, index) => (
                    <SwiperSlide key={index}>
                     <div className="testimonial-card" data-aos="fade-up">
-                        <div className="testimonial-img">
-                            
-                        </div>
+                    <p className="testimonial-feedback">"{t.feedback}"</p>
                     </div>
                    </SwiperSlide> 
                 ))}
