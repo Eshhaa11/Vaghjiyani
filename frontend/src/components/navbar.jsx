@@ -28,7 +28,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Hamburger for mobile */}
+      
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         ☰
       </div>
