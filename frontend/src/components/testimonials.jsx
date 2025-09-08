@@ -40,6 +40,7 @@ const testimonials = [
             modules={[Pagination, Autoplay]}
             slidesPerView={1}
             spaceBetween={30}
+            pagination={{clickable: true}}
             ></Swiper>
            </section> 
         )
