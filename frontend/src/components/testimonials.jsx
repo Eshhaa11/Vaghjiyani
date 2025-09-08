@@ -35,6 +35,10 @@ const testimonials = [
             Trusted by leading companies and professionals in construction and engineering.  
             </p>
             </div>
+
+            <Swiper
+            modules={[Pagination, Autoplay]}
+            ></Swiper>
            </section> 
         )
     }
