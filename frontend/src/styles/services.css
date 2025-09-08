@@ -126,6 +126,14 @@
   color: #555;
 }
 
+.service-img {
+  width: 100%;            /* take full card width */
+  height: 200px;          /* fixed height */
+  object-fit: cover;      /* crop/scale without distortion */
+  border-radius: 12px;    /* optional: match card’s rounded corners */
+  margin-bottom: 16px;    /* spacing below the image */
+}
+
 
 @media (max-width: 900px) {
   .services, .services-page-grid {
