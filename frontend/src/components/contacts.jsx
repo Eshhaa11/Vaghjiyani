@@ -11,6 +11,7 @@ const ContactSection = () => {
                 Have a project in mind? Let's connect and bring your vision to life.
             </p>
             <Link to="/contact" className="contact-btn">
+            Get in Touch →
             </Link>
            </div> 
         </section>
