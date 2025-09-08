@@ -48,6 +48,7 @@ const testimonials = [
                    <SwiperSlide key={index}>
                     <div className="testimonial-card" data-aos="fade-up">
                     <p className="testimonial-feedback">"{t.feedback}"</p>
+                    <h4>{t.name}</h4>
                     </div>
                    </SwiperSlide> 
                 ))}
