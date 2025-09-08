@@ -21,7 +21,7 @@ const ContactPage  = () => {
 
                 <form className="contact-form">
                     <input type="text" placeholder="Your Name" required/>
-                    
+                    <input type="email" placeholder="Your Email" required/>
                 </form>
             </div>
         </section>
