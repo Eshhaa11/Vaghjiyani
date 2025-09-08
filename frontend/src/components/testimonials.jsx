@@ -8,5 +8,6 @@ import "../styles/testimonials.css";
 const testimonials = [
     {
         name: "Alice Johnson",
+        role: "CEO, BuildRight Ltd",
     }
 ]
