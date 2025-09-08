@@ -9,5 +9,7 @@ const testimonials = [
     {
         name: "Alice Johnson",
         role: "CEO, BuildRight Ltd",
+        feedback: 
+        "Vaghjiyani Enterprises delivered exceptional quality and professionalism throughout our project"
     }
 ]
