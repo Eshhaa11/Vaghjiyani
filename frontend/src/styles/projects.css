@@ -8,24 +8,24 @@
 }
 
 .projects-header h2 {
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 14px;
   color: #111827;
 }
 
 .projects-header p {
-  font-size: 17px;
+  font-size: 16px;
   color: #4b5563;
   max-width: 650px;
-  margin: 0 auto 48px;
+  margin: 0 auto 40px;
   line-height: 1.6;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 32px;
+  gap: 28px;
   margin-bottom: 40px;
 }
 
@@ -55,19 +55,19 @@
 }
 
 .project-info {
-  padding: 22px;
+  padding: 20px;
   text-align: left;
 }
 
 .project-info h3 {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: #111827;
 }
 
 .project-info p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.5;
   color: #555;
 }
@@ -89,93 +89,13 @@
   transform: translateY(-3px);
 }
 
-/* ========================
-   Full Page Projects
-   ======================== */
-.projects-page-hero {
-  padding: 120px 20px;
-  text-align: center;
-  background: linear-gradient(rgba(59,60,110,0.85), rgba(59,60,110,0.85)),
-              url("../assets/Hero.png") center/cover no-repeat;
-  color: #fff;
-}
-
-.projects-page-hero h1 {
-  font-size: 46px;
-  font-weight: 700;
-  margin-bottom: 16px;
-}
-
-.projects-page-hero p {
-  font-size: 18px;
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.7;
-}
-
-.projects-page-grid {
-  padding: 90px 100px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 36px;
-}
-
-.project-page-card {
-  background: #ffffff;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
-  cursor: pointer;
-}
-
-.project-page-card img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-
-.project-page-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 14px 32px rgba(0,0,0,0.15);
-}
-
-.project-page-card:hover img {
-  transform: scale(1.08);
-}
-
-.project-page-info {
-  padding: 24px;
-}
-
-.project-page-info h3 {
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  color: #111827;
-}
-
-.project-page-info p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #555;
-}
-
-/* ========================
-   Responsive
-   ======================== */
+/* Responsive */
 @media (max-width: 900px) {
-  .projects,
-  .projects-page-grid {
+  .projects {
     padding: 60px 20px;
   }
 
   .projects-header h2 {
-    font-size: 30px;
-  }
-
-  .projects-page-hero h1 {
-    font-size: 34px;
+    font-size: 28px;
   }
 }
