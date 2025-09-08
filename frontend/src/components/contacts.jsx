@@ -4,6 +4,8 @@ import "../styles/contact.css"
 
 const ContactSection = () => {
     return (
-        
+        <section className="contact-section">
+            
+        </section>
     )
 }
