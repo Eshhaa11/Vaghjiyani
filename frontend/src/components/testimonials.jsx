@@ -15,6 +15,11 @@ const testimonials = [
     {
         name: "Michael Lee",
         role: "Project Manager, UrbanWorks",
+        feedback:
+        "The team went above and beyond too meet deadlines while maintaining top standards. Truly reliable partners.",
+    },
+    {
+        name: "Sophia Patel",
         
     }
 ]
