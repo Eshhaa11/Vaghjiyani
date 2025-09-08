@@ -134,7 +134,7 @@
   color: #555;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .projects, .projects-page-grid {
     padding: 60px 20px;
