@@ -28,5 +28,5 @@
 }
 
 .testimonial-card:hover {
-    translate: 
+    transform: translateY(-6px);
 }
