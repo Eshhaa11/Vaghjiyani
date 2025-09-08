@@ -13,7 +13,16 @@ const ContactPage  = () => {
             <div className="contact-grid">
                 <div className="contact-info">
                     <h3>Get in Touch</h3>
+                    <p><strong>📍 Address:</strong> 4th Ngong Avenue, Nairobi, Kenya</p>
+                    <p><strong>📞 Phone:</strong>+254 123456789</p>
+                    <p><strong>✉️ Email:</strong>abcd@gmail.com</p>
                 </div>
+
+
+                <form className="contact-form">
+                    <input type="text" placeholder="Your Name" required/>
+                    
+                </form>
             </div>
         </section>
     )
