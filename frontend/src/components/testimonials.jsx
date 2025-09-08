@@ -27,5 +27,7 @@ const testimonials = [
 ];
  
     const Testimonials = () => {
-        
+        return (
+            
+        )
     }
