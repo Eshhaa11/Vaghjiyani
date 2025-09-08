@@ -49,6 +49,7 @@ const testimonials = [
                     <div className="testimonial-card" data-aos="fade-up">
                     <p className="testimonial-feedback">"{t.feedback}"</p>
                     <h4>{t.name}</h4>
+                    <span>{t.role}</span>
                     </div>
                    </SwiperSlide> 
                 ))}
