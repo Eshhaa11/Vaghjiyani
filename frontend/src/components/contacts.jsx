@@ -15,5 +15,5 @@ const ContactSection = () => {
             </Link>
            </div> 
         </section>
-    )
-}
+    );
+};
