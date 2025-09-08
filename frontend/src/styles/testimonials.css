@@ -86,3 +86,8 @@
     color: #3B3C6E;
     transform: scale(1.1);
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: ;
+}
