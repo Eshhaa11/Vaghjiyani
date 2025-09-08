@@ -30,7 +30,7 @@ const testimonials = [
         return (
            <section className="testimonials">
             <div className="testimonials-header">
-                
+             <h2 data-aos="fade-up">What Our Clients Say</h2>   
             </div>
            </section> 
         )
