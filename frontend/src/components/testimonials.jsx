@@ -46,7 +46,7 @@ const testimonials = [
             >
                 {testimonials.map((t, index) => (
                    <SwiperSlide key={index}>
-                    
+                    <div className="testimonial-card"></div>
                    </SwiperSlide> 
                 ))}
 
