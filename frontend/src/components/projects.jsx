@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/projects.css";
+import greenmallImg from "../assets/greenmall.jpg";
+import metroImg from "../assets/metro.jpg";
+
 
 const Projects = () => {
   const projects = [
