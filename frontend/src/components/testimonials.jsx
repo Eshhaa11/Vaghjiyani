@@ -41,6 +41,7 @@ const testimonials = [
             slidesPerView={1}
             spaceBetween={30}
             pagination={{clickable: true}}
+            autoplay={{delay: 5000, disableOnInteraction: false}}
             ></Swiper>
            </section> 
         )
