@@ -31,6 +31,9 @@ const testimonials = [
            <section className="testimonials">
             <div className="testimonials-header">
              <h2 data-aos="fade-up">What Our Clients Say</h2>   
+             <p data-aos="fade-up" data-aos-delay="200">
+                
+             </p>
             </div>
            </section> 
         )
