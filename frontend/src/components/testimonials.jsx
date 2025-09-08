@@ -45,7 +45,9 @@ const testimonials = [
             loop={true}
             >
                 {testimonials.map((t, index) => (
+                   <SwiperSlide key={index}>
                     
+                   </SwiperSlide> 
                 ))}
 
 
