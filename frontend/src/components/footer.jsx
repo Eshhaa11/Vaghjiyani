@@ -3,3 +3,6 @@ import { Link } from "react-router-dom";
 import "../styles/footer.css";
 
 
+const Footer = () => {
+    
+}
