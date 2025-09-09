@@ -2,56 +2,76 @@
    Home Page Contact Section
    ======================= */
 .contact-home {
-  padding: 80px 100px;
-  background: #3B3C6E; /* brand color */
-  text-align: center;
-  color: #fff;
+  padding: 80px 20px;
+  background: #f9fafb;
+  position: relative;
 }
 
-.contact-home-content {
-  max-width: 700px;
+.contact-home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 1200px;
   margin: 0 auto;
+  gap: 40px;
 }
 
-.contact-home h2 {
-  font-size: 32px;
-  margin-bottom: 16px;
+/* Left side */
+.contact-home-content h2 {
+  font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: #1f2937;
+  margin-bottom: 20px;
 }
 
-.contact-home p {
-  font-size: 16px;
-  margin-bottom: 28px;
-  color: #f3f4f6;
-  line-height: 1.6;
+.contact-home-content p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #4b5563;
+  margin-bottom: 30px;
 }
 
 .contact-home-btn {
   display: inline-block;
-  background: #fff;
-  color: #3B3C6E;
+  background: #3b3c6e;
+  color: #fff;
   padding: 14px 36px;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
-  font-size: 15px;
-  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+  transition: transform 0.2s ease, background 0.3s ease;
 }
 
 .contact-home-btn:hover {
-  background: #e5e7eb;
-  color: #2e2f56;
-  transform: translateY(-2px);
+  background: #2e2f56;
+  transform: translateY(-3px);
 }
 
-/* Responsive */
+/* Right side */
+.contact-home-visual {
+  background: url("https://images.unsplash.com/photo-1581091870622-7f3c83b6b1d9")
+    center/cover no-repeat;
+  height: 350px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-home-visual .visual-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(59, 60, 110, 0.55);
+}
+
+
 @media (max-width: 900px) {
-  .contact-home {
-    padding: 60px 20px;
+  .contact-home-container {
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 
-  .contact-home h2 {
-    font-size: 26px;
+  .contact-home-visual {
+    height: 250px;
   }
 }
