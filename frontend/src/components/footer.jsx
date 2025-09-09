@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-contact">
-            
+            <h4>Contact Us</h4>
           </div>
 
 
