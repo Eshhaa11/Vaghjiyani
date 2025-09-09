@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="contact-home">
       <div className="contact-home-content">
-        <h2>Let’s Build Together</h2>
+        <h2>Let's Build Together</h2>
         <p>
           Have a project in mind? Partner with Vaghjiyani Enterprises Ltd —
           delivering excellence in construction, engineering, and infrastructure
