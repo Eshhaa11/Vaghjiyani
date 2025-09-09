@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
 
-      
+      {/* Bottom bar */}
       <div className="footer-bottom" data-aos="fade-up" data-aos-delay="450">
         <p>© {new Date().getFullYear()} Vaghjiyani Enterprises Ltd. All rights reserved.</p>
       </div>
