@@ -78,7 +78,7 @@
   color: #9ca3af;
 }
 
-/* AOS Animations (optional subtle tweaks) */
+
 .footer-container > div {
   transition: transform 0.6s ease, opacity 0.6s ease;
 }
@@ -87,7 +87,6 @@
   transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: 1fr;
