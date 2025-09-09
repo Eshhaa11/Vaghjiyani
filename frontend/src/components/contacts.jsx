@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/contact.css";
-import contactImg from "../assets/Contactt.png"; // import image
+import contactImg from "../assets/Contactt.png"; 
 
 const Contact = () => {
   return (

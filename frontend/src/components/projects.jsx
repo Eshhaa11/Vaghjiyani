@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/projects.css";
 
-// Import your project preview images
+
 import skylineImg from "../assets/skyline.jpg";
 import metroImg from "../assets/metro.jpg";
 import greenmallImg from "../assets/greenmall.jpg";
