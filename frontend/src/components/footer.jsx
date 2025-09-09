@@ -9,7 +9,10 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-band">
             <h2>Vaghjiyani Enterprises Ltd</h2>
-          </div>  
+            <p>Excellence in construction, engineering, and infrastructure.</p>
+          </div>
+
+          
         </div>
     </footer>
    ) 
