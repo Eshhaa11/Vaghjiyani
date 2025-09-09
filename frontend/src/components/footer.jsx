@@ -23,6 +23,10 @@ const Footer = () => {
             </ul>
           </div>
 
+          <div className="footer-contact">
+            
+          </div>
+
 
         </div>
     </footer>
