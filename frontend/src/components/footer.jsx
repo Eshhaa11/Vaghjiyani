@@ -12,7 +12,15 @@ const Footer = () => {
             <p>Excellence in construction, engineering, and infrastructure.</p>
           </div>
 
-          
+          <div className="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><Link to="/">Home</Link></li>
+                
+            </ul>
+          </div>
+
+
         </div>
     </footer>
    ) 
