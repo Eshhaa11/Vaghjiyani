@@ -68,7 +68,7 @@
   overflow: hidden;
 }
 
-/* Optional: Overlay to darken the image for text contrast */
+
 .contact-home-visual::after {
   content: "";
   position: absolute;
