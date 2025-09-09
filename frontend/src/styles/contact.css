@@ -84,7 +84,7 @@ html, body {
   background: rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .contact-home-container {
     grid-template-columns: 1fr;
