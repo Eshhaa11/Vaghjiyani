@@ -8,22 +8,16 @@ import "../styles/testimonials.css";
 
 const testimonials = [
   {
-    name: "Alice Johnson",
-    role: "CEO, BuildRight Ltd",
+    name: "Ministry of Public Works",
+    role: "Chief Architect",
     feedback:
-      "Vaghjiyani Enterprises delivered exceptional quality and professionalism throughout our project. Highly recommended!",
+      "VEL'S Construction is one of the best general contracotrs we've worked with. The entire team tactfully delivered a project of exceptional quality while staying on schedule and under budget. We hope to work with 'VEL' again in the near future!",
   },
   {
-    name: "Michael Lee",
-    role: "Project Manager, UrbanWorks",
+    name: "Agro-Chemical & Food Company Ltd",
+    role: " Purchasing & Supplies Manager",
     feedback:
       "The team went above and beyond to meet deadlines while maintaining top standards. Truly reliable partners.",
-  },
-  {
-    name: "Sophia Patel",
-    role: "Architect, Skyline Designs",
-    feedback:
-      "Collaborating with them was smooth and efficient. Their expertise brought our vision to life flawlessly.",
   },
 ];
 
