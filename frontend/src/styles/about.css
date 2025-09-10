@@ -24,7 +24,7 @@
 .about-content p {
   font-size: 16px;
   line-height: 28px;
-  color: #242b35;
+  color: #3C3B6E;
   margin-bottom: 32px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +68,7 @@
 
 .read-more-btn {
   display: inline-block;
-  background: #2563eb;
+  background: #3C3B6E;
   color: white;
   padding: 14px 28px;
   border-radius: 999px;
@@ -107,5 +107,5 @@
 
   .about-content h2 {
     font-size: 28px;
-  }
-}
+  };
+};
