@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/footer.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import logoo from "../assets/logoo.jpg";
+import logoo from "../assets/logoo.png";
 
 const Footer = () => {
   useEffect(() => {
