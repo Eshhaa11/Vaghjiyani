@@ -9,15 +9,15 @@ import infrastructureImg from "../assets/infrastructure.jpg";
 const Services = () => {
   const services = [
     {
-      title: "Construction",
+      title: "Building Construction",
       img: constructionImg,
     },
     {
-      title: "Engineering",
+      title: "Water, Sanitation & Irrigation",
       img: engineeringImg,
     },
     {
-      title: "Infrastructure",
+      title: "Transportation",
       img: infrastructureImg,
     },
   ];
