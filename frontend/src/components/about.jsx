@@ -13,9 +13,7 @@ const About = () => {
           Building excellence, shaping the future.
         </h3>
         <p data-aos="fade-up" data-aos-delay="200">
-          With decades of experience, Vaghjiyani Enterprises Ltd delivers
-          excellence in construction, engineering, and infrastructure
-          development. We pride ourselves on quality, safety, and innovation.
+         Vaghjiyani Enterprises Limited (VEL) is one of the leading and fastest growing contractors in Kenya. With specialization in Civil & General Building Construction work, Under the leadership of qualified & passionate directors the success of VEL is attributed to proactively managing change while upholding the values of probity, services and community culture.
         </p>
 
         
