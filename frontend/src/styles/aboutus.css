@@ -1,113 +1,217 @@
-.about-us-page section {
-  padding: 5rem 1.5rem;
+:root {
+  --brand: #3C3B6E;
+  --muted: #6b7280;
+  --accent: #f39c12;
+  --bg: #ffffff;
+  --card: #f8fafc;
+  --radius: 12px;
+  --max: 1200px;
+  --shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
 
-.about-us-page h1,
-.about-us-page h2,
-.about-us-page h3 {
-  margin-bottom: 1rem;
+/* Reset container */
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
+.about-page {
+  background: var(--bg);
+  color: #1f2937;
+  line-height: 1.6;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* HERO */
 .about-hero {
-  background-color: #1e40af; 
-  color: white;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
   text-align: center;
-  padding: 8rem 1.5rem;
+  padding: 4rem 0;
+  color: #fff;
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+.hero-inner {
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .about-hero h1 {
-  font-size: 3rem;
+  font-size: clamp(2.2rem, 4vw, 3rem);
   font-weight: 700;
   margin-bottom: 1rem;
+  letter-spacing: -0.5px;
 }
 
-.about-hero p {
+.hero-lead {
   font-size: 1.125rem;
-  max-width: 40rem;
-  margin: 0 auto;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 1.5rem;
 }
 
+/* Mission & Vision */
 .mission-vision {
   display: grid;
   gap: 3rem;
-  max-width: 80rem;
-  margin: 0 auto;
+  padding: 4rem 0;
+  align-items: start;
 }
 
-.mission-vision div h2 {
-  font-size: 2.25rem;
+.mv-left, .mv-right {
+  background: transparent;
+}
+
+.mv-left h2, .mv-right h2 {
+  font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
+  color: var(--brand);
 }
 
-.mission-vision div p {
-  font-size: 1.125rem;
-  color: #374151; 
-}
-
-
-.team-section {
-  text-align: center;
-}
-
-.team-section h2 {
-  font-size: 2.25rem;
-  font-weight: 700;
+.mv-left p, .mv-right p {
+  color: var(--muted);
   margin-bottom: 1rem;
+  max-width: 55ch;
 }
 
-.team-section p {
-  font-size: 1.125rem;
-  color: #4b5563; 
-  margin-bottom: 3rem;
+.mv-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.mv-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: #374151;
+}
+
+.mv-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Stats */
+.mv-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.stat {
+  flex: 1 1 120px;
+  background: var(--card);
+  padding: 1.25rem;
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.stat:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+}
+
+.stat-num {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* TEAM */
+.team-section {
+  padding: 4rem 0;
+}
+
+.section-head {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-head h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.section-sub {
+  color: var(--muted);
+  max-width: 60ch;
+  margin: 0.5rem auto 0;
 }
 
 .team-cards {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
-  max-width: 80rem;
-  margin: 0 auto;
+  gap: 1.5rem;
 }
 
+.team-card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 36px rgba(0,0,0,0.08);
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.avatar img, .avatar-placeholder {
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+
+.team-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.role {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* Responsive */
 @media (min-width: 768px) {
   .mission-vision {
+    grid-template-columns: 1fr 1fr;
+  }
+  .team-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (min-width: 1080px) {
   .team-cards {
     grid-template-columns: repeat(3, 1fr);
   }
-}
-
-
-.team-card {
-  background: #ffffff;
-  padding: 1.5rem;
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  text-align: center;
-}
-
-.team-card .avatar {
-  width: 8rem;
-  height: 8rem;
-  margin: 0 auto 1rem auto;
-  border-radius: 50%;
-  background-color: #d1d5db; 
-}
-
-
-.back-home {
-  display: inline-block;
-  background-color: #1f2937; 
-  color: white;
-  font-weight: 600;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.back-home:hover {
-  background-color: #111827; 
 }
