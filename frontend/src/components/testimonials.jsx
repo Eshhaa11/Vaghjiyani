@@ -40,6 +40,7 @@ const Testimonials = () => {
     navigation={true} 
     autoplay={{ delay: 6000, disableOnInteraction: false }}
     loop={true}
+    keyboard={{enabled: true}}
     >
 
         {testimonials.map((t, index) => (
