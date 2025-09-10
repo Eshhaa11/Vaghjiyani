@@ -33,7 +33,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="footer-contact" data-aos="fade-up" data-aos-delay="300">
           <h4>Contact Us</h4>
-          <p>123 Main Street, Nairobi, Kenya</p>
+          <p>19th Floor, 4th Avenue Tower, < br /> 4th Avenue Ngong Upper Hill, Nairobi, Kenya</p>
           <p>Email: info@vaghjiyani.com</p>
           <p>Phone: +254 712 345 678</p>
         </div>
