@@ -10,17 +10,14 @@ const Services = () => {
   const services = [
     {
       title: "Construction",
-      desc: "From groundbreaking to handover, we deliver durable residential and commercial spaces with precision.",
       img: constructionImg,
     },
     {
       title: "Engineering",
-      desc: "Innovative engineering solutions that address complex challenges with efficiency and expertise.",
       img: engineeringImg,
     },
     {
       title: "Infrastructure",
-      desc: "Roads, bridges, and large-scale infrastructure built to serve communities for generations.",
       img: infrastructureImg,
     },
   ];
