@@ -33,7 +33,7 @@ const Testimonials = () => {
       </div>
 
     <Swiper
-    modules={[Pagination, Autoplay, Navigation]}
+    modules={[Pagination, Autoplay, Navigation, Keyboard]}
     slidesPerView={1}
     spaceBetween={40}
     pagination={{ clickable: true }}
