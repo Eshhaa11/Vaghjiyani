@@ -193,6 +193,10 @@ const AboutUsPage = () => {
               pledge to remain commited to excellence, keep abreast of changes
               and innovations, adopt better management and construction <br />
               techniques and successfully overcome all challenges before us."
+
+                     <p>~ Mr. Ramesh Vaghjiyani</p>
+
+              
             </p>
           </div>
         </section>
