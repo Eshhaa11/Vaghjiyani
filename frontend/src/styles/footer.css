@@ -86,6 +86,15 @@
   transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
+
+.footer-logo {
+  width: 190px;  
+  height: auto;
+  margin-top: 12px; 
+  display: block;
+}
+
+
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: 1fr;
@@ -98,4 +107,5 @@
     margin-bottom: 8px;
   }
 };
+
 
