@@ -1,16 +1,15 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import "../styles/aboutus.css";
-import aboutImg from "../assets/about.jpg"; // ✅ Import hero image
+import aboutImg from "../assets/about.jpg"; // ✅ Hero image
 
 const teamMembers = [
   { name: "Mr. Ramesh Vaghjiyani", role: "Managing Director", img: null },
   {
-    name: "Mr. Hiten Vagjiyani",
+    name: "Mr. Hiten Vaghjiyani",
     role: "Administration & Finance Director",
     img: null,
   },
@@ -26,7 +25,7 @@ const AboutUsPage = () => {
       <Navbar />
 
       <main className="about-page" aria-labelledby="about-hero-title">
-        {/* ✅ Hero with imported background */}
+        {/* ✅ Hero */}
         <header
           className="about-hero"
           style={{
@@ -153,51 +152,69 @@ const AboutUsPage = () => {
             ))}
           </div>
 
+          {/* ✅ Director Statements */}
           <div className="section-head" data-aos="fade-up">
-            <h2 id="team-title">Statements</h2>
-            <p className="section-statement">
-              "Our greatest strength lies in the happiness of our employees and
-              appreciation of our clients! <br />
-              As one of the most important driving forces in developing modern
-              society, real estate corporations have <br />
-              become the backbone of communities. To build a happy and
-              harmonious society, it is a worthwhile attempt for us <br />
-              to build a happy business. We strive to fully undertake our social
-              responsibility, building a green and sustainable business,
-              <br />
-              leading as an example of a happy business, and ultimately
-              achieving the shared vision of security for our respective clients
-              <br />
-              We take pride in being one of the pioneer real estate firms in
-              Kenya having achieved remarkable growth over the last two
-              <br />
-              decades and contributing significantly to the development of
-              Kenya. The company has attained prominence as a leader in <br />
-              the field of construction through competence, competiteveness and
-              timely delivery with highest quality standards and <br />
-              recognized safety perfomance. We have a long tradition of serving
-              our valued stakeholders to their complete satisfaction <br />
-              through efficient management and excellent workmanship, which we
-              continue to maintain with our untiring efforts. In an era <br />
-              of advanced technologies and new techniques, we continuously
-              strive for innovation and enhanced efficiency. We are a family{" "}
-              <br />
-              business with a deep rooted pioneering spirit and a wealth of
-              highly relevant experience. Our goal is to continue to create
-              value <br />
-              for our stakeholders, surrounding communities and the wider
-              economy. We are proud of our past, and passionate about the future
-              <br />
-              moreover looking forward continuing our success alongside each of
-              our partners. As we look to they years ahead, we renew our <br />
-              pledge to remain commited to excellence, keep abreast of changes
-              and innovations, adopt better management and construction <br />
-              techniques and successfully overcome all challenges before us."
+            <h2 id="team-title">Statements From The Directors</h2>
+            <div className="section-statement">
+              {/* Ramesh Statement */}
+              <p>
+                "Our greatest strength lies in the happiness of our employees
+                and appreciation of our clients! As one of the most important
+                driving forces in developing modern society, real estate
+                corporations have become the backbone of communities. To build a
+                happy and harmonious society, it is a worthwhile attempt for us
+                to build a happy business.
+              </p>
+              <p>
+                We strive to fully undertake our social responsibility, building
+                a green and sustainable business, leading as an example of a
+                happy business, and ultimately achieving the shared vision of
+                security for our respective clients.
+              </p>
+              <p>
+                We take pride in being one of the pioneer real estate firms in
+                Kenya having achieved remarkable growth over the last two
+                decades and contributing significantly to the development of
+                Kenya. The company has attained prominence as a leader in the
+                field of construction through competence, competitiveness and
+                timely delivery with highest quality standards and recognized
+                safety performance.
+              </p>
+              <p>
+                We have a long tradition of serving our valued stakeholders to
+                their complete satisfaction through efficient management and
+                excellent workmanship, which we continue to maintain with our
+                untiring efforts. In an era of advanced technologies and new
+                techniques, we continuously strive for innovation and enhanced
+                efficiency.
+              </p>
+              <p>
+                We are a family business with a deep rooted pioneering spirit
+                and a wealth of highly relevant experience. Our goal is to
+                continue to create value for our stakeholders, surrounding
+                communities and the wider economy. We are proud of our past, and
+                passionate about the future moreover looking forward continuing
+                our success alongside each of our partners.
+              </p>
+              <p>
+                As we look to the years ahead, we renew our pledge to remain
+                committed to excellence, keep abreast of changes and
+                innovations, adopt better management and construction techniques
+                and successfully overcome all challenges before us."
+              </p>
+              <p className="author">~ Mr. Ramesh Vaghjiyani</p>
 
-                     <p>~ Mr. Ramesh Vaghjiyani</p>
-
-              
-            </p>
+              {/* Hiten Statement */}
+              <p>
+                "This growth can be attributed to the ability to undertake,
+                successfully execute and complete a variety of projects under
+                the management and supervision of experienced Administrators,
+                Project Managers and Engineers, and over 1,000 employees,
+                supported by adequate transport facilities, machinery and
+                equipment."
+              </p>
+              <p className="author">~ Mr. Hiten Vaghjiyani</p>
+            </div>
           </div>
         </section>
       </main>
