@@ -2,23 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/services.css";
 
-import constructionImg from "../assets/construction.jpg";
-import engineeringImg from "../assets/engineering.jpeg";
-import infrastructureImg from "../assets/infrastructure.jpg";
+import buildingImg from "../assets/building.png";
+import waterImg from "../assets/water.png";
+import transportationImg from "../assets/transportation.png";
 
 const Services = () => {
   const services = [
     {
       title: "Building Construction",
-      img: constructionImg,
+      img: buildingImg,
     },
     {
       title: "Water, Sanitation & Irrigation",
-      img: engineeringImg,
+      img: waterImg,
     },
     {
       title: "Transportation",
-      img: infrastructureImg,
+      img: transportationImg,
     },
   ];
 
