@@ -3,8 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import ServicesPage from "./pages/ServicesPage";
 import ProjectsPage from "./pages/ProjectsPage";
-import AboutUsPage from "./pages/AboutUsPage"; 
+import AboutUsPage from "./pages/AboutUsPage";
+import ContactPage from "./pages/ContactPage";
 import AOS from "aos";
+
 import "aos/dist/aos.css";
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/about-us" element={<AboutUsPage />} /> 
+        <Route path="/about-us" element={<AboutUsPage />} />
+        {/* ✅ Short clean route */}
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   );
