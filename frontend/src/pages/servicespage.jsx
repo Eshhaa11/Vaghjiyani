@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import "../styles/services.css";
+import "../styles/servicesus.css";
 
 const ServicesPage = () => {
   useEffect(() => {
@@ -47,14 +47,15 @@ const ServicesPage = () => {
     <>
       <Navbar />
 
+      {/* Hero Section */}
       <section className="services-hero">
         <h1 data-aos="fade-down">Our Services</h1>
         <p data-aos="fade-up" data-aos-delay="200">
-          Delivering excellence across construction, engineering, and
-          infrastructure.
+          Delivering excellence across construction, engineering, and infrastructure.
         </p>
       </section>
 
+      {/* Services Grid */}
       <section className="services-grid">
         {allServices.map((service, index) => (
           <div
@@ -63,7 +64,11 @@ const ServicesPage = () => {
             data-aos="fade-up"
             data-aos-delay={index * 150}
           >
-            <img src={service.img} alt={service.title} className="service-img" />
+            <img
+              src={service.img}
+              alt={service.title}
+              className="service-img"
+            />
             <div className="service-content">
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
