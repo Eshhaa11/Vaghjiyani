@@ -50,7 +50,7 @@
   font-size: 1rem;
   color: #444;
   line-height: 1.7;
-  white-space: pre-line; /* Keeps your line breaks */
+  white-space: pre-line; 
 }
 
 /* Responsive */
