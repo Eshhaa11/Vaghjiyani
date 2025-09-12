@@ -82,14 +82,14 @@ Waste water management
 We also undertake the planning and design of new systems and the rehabilitation of existing sewer systems in urban, industrial and rural areas. We have expertise to plan and supervise construction of mechanical, biological and chemical processes, as well as sludge handling and stabilization.
 
 Other service areas in this field include:
-- Water quality and pollution control
-- Master plan and manuals preparation
-- Monitoring and evaluation of projects
-- Water conservation and catchment management
-- Hydro-logical studies and Geo-technical investigations
-- Water tariff review studies
-- Water allocation plans
-- Project management and construction supervision
+- Water quality and pollution control.
+- Master plan and manuals preparation.
+- Monitoring and evaluation of projects.
+- Water conservation and catchment management.
+- Hydro-logical studies and Geo-technical investigations.
+- Water tariff review studies.
+- Water allocation plans.
+- Project management and construction supervision.
 - Feasibility studies and baseline surveys`,
       img: "/assets/services/commercial.jpg",
     },
@@ -114,12 +114,12 @@ Other service areas in this field include:
       img: "/assets/services/management.jpg",
     },
   ];
-
+   
   return (
     <>
       <Navbar />
 
-      {/* Hero Section */}
+      
       <section className="services-hero">
         <h1 data-aos="fade-down">Our Services</h1>
         <p data-aos="fade-up" data-aos-delay="200">
