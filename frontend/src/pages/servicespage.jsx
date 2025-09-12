@@ -12,7 +12,7 @@ const ServicesPage = () => {
 
   const allServices = [
     {
-      title: "Residential Construction",
+      title: "Building Construction",
       desc: "Modern homes and apartments designed with precision and quality.",
       img: "/assets/services/residential.jpg",
     },
