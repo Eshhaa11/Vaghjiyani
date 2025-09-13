@@ -21,7 +21,6 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/about-us" element={<AboutUsPage />} />
-        {/* ✅ Short clean route */}
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
