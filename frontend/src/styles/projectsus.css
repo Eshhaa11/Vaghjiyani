@@ -1,0 +1,158 @@
+/* ===============================
+   HERO SECTION
+   =============================== */
+.projects-hero {
+  height: 60vh;
+  background: linear-gradient(rgba(60, 59, 110, 0.85), rgba(60, 59, 110, 0.85)),
+                center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.projects-hero .hero-content {
+  max-width: 800px;
+}
+
+.projects-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.projects-hero p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* ===============================
+   TABS
+   =============================== */
+.projects-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.projects-tabs button {
+  padding: 0.8rem 2rem;
+  border: 2px solid #3C3B6E;
+  background: transparent;
+  color: #3C3B6E;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.projects-tabs button:hover {
+  background: #3C3B6E;
+  color: #fff;
+}
+
+.projects-tabs .active {
+  background: #3C3B6E;
+  color: #fff;
+}
+
+/* ===============================
+   PROJECTS GRID
+   =============================== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(60,59,110,0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.project-content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #3C3B6E;
+}
+
+.project-works {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.project-meta p {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+  color: #333;
+}
+
+.project-meta strong {
+  color: #3C3B6E;
+}
+
+/* ===============================
+   STATUS TAGS
+   =============================== */
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.status.ongoing {
+  background: rgba(255, 193, 7, 0.15);
+  color: #f0a500;
+  animation: pulse 1.5s infinite;
+}
+
+.status.completed {
+  background: rgba(60, 59, 110, 0.15);
+  color: #3C3B6E;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+@media (max-width: 768px) {
+  .projects-hero {
+    height: 45vh;
+  }
+
+  .projects-hero h1 {
+    font-size: 2rem;
+  }
+
+  .projects-hero p {
+    font-size: 1rem;
+  }
+}
