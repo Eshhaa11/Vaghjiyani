@@ -66,7 +66,7 @@ Our profile and experience has been built through:
       title: "Transportation",
       desc: `VEL has over 20 years of experience, knowledge, and management in Road and Bridges construction.
 
-### Planning and Design
+ Planning and Design
 Before construction begins, extensive planning is carried out. Key considerations:
 - Traffic volume and location
 - Terrain and soil properties
@@ -75,17 +75,17 @@ Before construction begins, extensive planning is carried out. Key consideration
 - Future expansion possibilities
 - Road maintenance costs
 
-### Construction Stages
-**Excavation & Earthwork**
+Construction Stages
+Excavation & Earthwork
 - Clearing vegetation and preparing land
 - Mounting, grading, aggregating for stabilization
 
-**Paving**
+Paving
 - Gravel Layer (frost blanket)
 - Base Layer (bitumen, cement, lime binders)
 - Surface Layer (friction, smoothness, drainage)
 
-### Road Types
+Road Types
 - Concrete Roads
 - Gravel Roads
 - Low Volume Seal Roads

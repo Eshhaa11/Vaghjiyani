@@ -1,67 +1,82 @@
-/* Hero Section */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+  font-family: 'Poppins', 'Inter', 'Segoe UI', sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Services Hero Section */
 .services-hero {
-  background: linear-gradient(135deg, #3c3b6e, #2a2950);
+  background-color: #3C3B6E;
   color: white;
   text-align: center;
-  padding: 6rem 2rem;
+  padding: 8rem 2rem;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .services-hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
 }
 
 .services-hero p {
-  font-size: 1.25rem;
-  opacity: 0.9;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #e5e5e5;
 }
 
-
+/* Services Wrapper */
 .services-wrapper {
-  max-width: 1100px;
-  margin: 4rem auto;
-  padding: 0 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f7f9fc, #eef1f6);
+  border-radius: 20px;
 }
 
-/* Service Card Block */
+/* Individual Service Block */
 .service-block {
-  background: #fff;
+  background: white;
   border-radius: 16px;
-  padding: 2rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.service-block:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+  padding: 2.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  position: relative;
+  font-family: inherit; /* Ensures same font as body */
 }
 
 .service-block h2 {
-  font-size: 2rem;
-  color: #3c3b6e;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
+  border-bottom: 3px solid #3C3B6E;
+  padding-bottom: 0.6rem;
+  display: inline-block;
+  font-weight: 600;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-.service-text {
-  font-size: 1rem;
+.service-block .service-text {
+  font-size: 1.05rem;
+  line-height: 1.75;
   color: #444;
-  line-height: 1.7;
-  white-space: pre-line; 
-}
-
-
-@media (max-width: 768px) {
-  .services-hero h1 {
-    font-size: 2.2rem;
-  }
-  .services-hero p {
-    font-size: 1rem;
-  }
-  .service-block h2 {
-    font-size: 1.5rem;
-  }
+  transition: color 0.3s ease;
 }
